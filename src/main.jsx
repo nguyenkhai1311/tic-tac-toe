@@ -5,6 +5,6 @@ import TicTacToe from "./components/TicTacToe";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <TicTacToe />,
+    <TicTacToe />
   </StrictMode>,
 );
