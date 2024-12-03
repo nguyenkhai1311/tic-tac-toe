@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Open Sans";
+  src:
+    local("Open Sans Italic"),
+    url("/fonts/OpenSans/OpenSans-Italic-VariableFont_wdth,wght.ttf")
+      format("ttf");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src:
+    local("Open Sans"),
+    url("/fonts/OpenSans/OpenSans-VariableFont_wdth,wght.ttf") format("ttf");
+  font-weight: 500;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
